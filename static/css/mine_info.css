@@ -1,0 +1,67 @@
+page{
+	background: #F5F5F5;
+}
+.top{
+	height: 88rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: var(--status-bar-height);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	background-color: #ffffff;
+}
+.top .img{
+	position: absolute;
+	left: 24rpx;
+	width: 48rpx;
+	height: 48rpx;
+	top: var(--status-bar-height);
+	padding-top: 20rpx;
+}
+.top image{
+	width: 48rpx;
+	height: 48rpx;
+}
+.form{
+	
+}
+.form .row{
+	height: 112rpx;
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 28rpx 0 32rpx;
+}
+.form .row .right{
+	display: flex;
+	align-items: center;
+}
+.form .row image{
+	width: 32rpx;
+	height: 32rpx;
+}
+
+.form .row .user{
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 4rpx;
+}
+.form .row text{
+	margin-right:12rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #303133;
+	max-width: 400rpx;
+	
+}
+.form .row .empty{
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #C4C7CC;
+}

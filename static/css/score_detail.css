@@ -1,0 +1,62 @@
+page{
+	background-color: #fff;
+}
+.part{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #333336;
+	position: relative;
+	height: 88rpx;
+}
+.part image{
+	position: absolute;
+	width: 48rpx;
+	height:48rpx;
+	left: 24rpx;
+}
+
+.part .img{
+	display: flex;
+	align-items: center;
+}
+.date{
+	background-color: #F5F5F5;
+	height: 92rpx;
+	display: flex;
+	align-items: center;
+	padding-left: 40rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #1A2233;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	margin-left: 40rpx;
+	margin-right: 32rpx;
+	padding-top: 28rpx;
+	padding-bottom: 28rpx;
+	border-bottom: 1rpx solid #EBEDED;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
+.row .time{
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #C4C7CC;
+}
+.row .score{
+	font-size: 36rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #008965;
+}

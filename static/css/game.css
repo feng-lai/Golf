@@ -1,0 +1,119 @@
+page{
+	
+}
+.back{
+	height: 88rpx;
+	background: #FFFFFF;
+	display:flex;
+	align-items: center;
+	padding-top: var(--status-bar-height);
+	padding-left: 24rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+.back image{
+	width: 48rpx;
+	height: 48rpx;
+}
+.title{
+	font-size: 42rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #1A2233;
+	line-height: 58rpx;
+	padding: 120rpx 0 0 32rpx;
+	margin-top: var(--status-bar-height);
+}
+.row{
+	margin: 28rpx 32rpx 0 32rpx;
+	height: 64rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+}
+.row .user{
+	display: flex;
+	align-items: center;
+}
+.row .user image{
+	width: 64rpx;
+	height:64rpx;
+	margin-right: 20rpx;
+}
+.row .user text{
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
+.content{
+	padding: 0 32rpx;
+	margin-top: 40rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+	line-height: 56rpx;
+}
+.content image{
+	width: 686rpx;
+	height: 384rpx;
+	margin-bottom: 32rpx;
+}
+.content .three{
+	display: flex;
+	padding: 0 30rpx;
+	padding-bottom: 40rpx;
+	justify-content: space-between;
+}
+.content .three image{
+	width: 196rpx;
+	height: 196rpx;
+}
+.btn{
+	position: fixed;
+	z-index: 999;
+	width: 144rpx;
+	height: 88rpx;
+	background: #FFFFFF;
+	box-shadow: 0rpx 0rpx 20rpx -8rpx rgba(28,19,15,0.6);
+	border-radius: 44rpx;
+	bottom: 34rpx;
+	right: 32rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 32rpx;
+}
+.btn image{
+	width: 48rpx;
+	height: 48rpx;
+}
+.btn .agree{
+	position: relative;
+}
+.btn .agree text{
+	position: absolute;
+	top: -5rpx;
+	right: -30rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #585C66;
+}
+.btn button{
+	padding: 0;
+	margin: 0;
+	background-color: inherit;
+	line-height: inherit;
+}
+.btn button::after{
+	border: 0;
+}

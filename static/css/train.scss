@@ -1,0 +1,702 @@
+.com {
+	display: inherit;
+}
+
+.bg {
+	width: 100%;
+}
+
+.bg image {
+	width: 100%;
+	z-index: -2;
+	height: 420rpx;
+}
+.coach{
+	position: relative;
+}
+.coach .bgs{
+	position:absolute;
+	width: 750rpx;
+	height: 170rpx;
+	left: 0;
+	top: -132rpx;
+}
+.coach .coach_head {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30rpx;
+	position: absolute;
+	left: 0;
+	width: 690rpx;
+	top: -126rpx;
+}
+
+.coach .coach_head image {
+	margin-left: 20rpx;
+	height: 120rpx;
+	border-radius: 50%;
+	margin-top: 6rpx;
+
+}
+
+.coach .coach_head .message {
+	width: 220rpx;
+	height: 80rpx;
+	border-radius: 17px;
+	border: 1px solid #FFAC00;
+	display: flex;
+	margin-top: 98rpx;
+}
+
+.coach .coach_head .message image {
+	margin: 16rpx 25rpx 16rpx;
+	width: 40rpx;
+	height: 40rpx;
+	flex: 1;
+}
+
+.coach .coach_head .message text {
+	margin: 25rpx 0rpx 16rpx;
+	width: 100rpx;
+	height: 50rpx;
+	font-size: 25rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #FFAC00;
+	line-height: 17px;
+	flex: 3;
+}
+
+.coach .coach_info {
+	padding: 0 20rpx;
+	padding-top: 34rpx;
+	padding-bottom: 38rpx;
+	border-bottom: 1px solid #EBEDED;
+}
+
+.coach_info .coach_up {
+	display: flex;
+}
+
+.coach_info .coach_up .coach_name {
+	/* font-style: italic; */
+	width: 150rpx;
+	font-size: 40rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 900;
+	color: #1A2233;
+	line-height: 56rpx;
+	letter-spacing: 2rpx;
+}
+
+.coach_info .coach_up image {
+	margin-top: 6rpx;
+	margin-left: 30 rpx;
+	width: 150rpx;
+	height: 40rpx;
+}
+
+.coach_info .coach_dowm {
+	margin-top: 20rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+	line-height: 36rpx;
+}
+
+.divider {
+	margin-top: 20rpx;
+	background: #E0E3DA;
+	width: 100%;
+	height: 2rpx;
+}
+
+.lessons {
+
+}
+
+.lessons .lessons_content {
+	width: 100%;
+	background: #FFFFFF;
+}
+
+.divider2 {
+	background: #eef0e8;
+	height: 20rpx;
+}
+
+.private_lesson {
+	width: 100%;
+}
+
+.private_lesson .detail .lesson_title {
+	width: 100%;
+	display: flex;
+	border-bottom: 2rpx solid #EBEDED;
+	padding-top: 20rpx;
+	padding-bottom: 25rpx;
+	padding-left: 40rpx;
+}
+
+.private_lesson .detail .lesson_title .state_bar {
+	text-align: center;
+	height: 45rpx;
+	width: 175rpx;
+	background: #00AB64;
+	border-radius: 20rpx 12rpx 20rpx 12rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 45rpx;
+}
+
+.private_lesson .detail .lesson_title .title_text {
+	margin-top: -5rpx;
+	width: 800rpx;
+	padding-left: 15rpx;
+	font-size: 35rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+}
+
+.detail {}
+
+.detail .row .title {
+	height: 75rpx;
+	display: inherit;
+	align-items: center;
+	padding-top: 20rpx;
+	padding-bottom: 25rpx;
+	padding-left: 40rpx;
+}
+
+.detail .row .title .bg {
+	height: 88rpx;
+	background: #F3F5F5;
+	border-radius: 16rpx;
+	display: flex;
+	flex-wrap: wrap;
+	white-space: var(10rpx);
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+	width: 640rpx;
+}
+
+.detail .row .title .bg image {
+	z-index: inherit;
+	width: 35rpx;
+	height: 35rpx;
+	transition-property: transform;
+	transition-duration: 0.7s;
+	display: flex;
+}
+
+.detail .row .title .bg .text_text {
+	font-size: 28rpx;
+}
+
+.detail .row .title .bg .text_date {
+	font-size: 20rpx;
+	padding-left: 80rpx;
+	color: #C4C7CC;
+}
+
+.detail .row .title .bg .done {
+	font-size: 20rpx;
+	padding-left: 80rpx;
+	color: #C4C7CC;
+}
+
+.detail .row .title .bg .not_done {
+	font-size: 20rpx;
+	padding-left: 80rpx;
+	color: #fda900;
+}
+
+.detail .row .entry {
+	max-height: 0;
+	transition-property: max-height;
+	transition-duration: 0.7s;
+	overflow: hidden;
+}
+
+.detail .active .entry {
+	max-height: 500rpx;
+}
+
+.detail .active .title .bg image {
+	transform: rotate(180deg);
+}
+
+.detail .row .entry .rows {
+	margin-left: 50rpx;
+	text-indent: 1em;
+	width: 650rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	border-bottom: 2rpx solid #EBEDED;
+	font-size: 28rpx;
+}
+
+.detail .row .entry .rows:last-child {
+	border-bottom: 0;
+}
+
+.blank {
+	color: #ffffff;
+	margin: 20rpx 0 0;
+}
+
+
+/* 公开课 */
+
+.public_lesson .entry {
+	background: #fff;
+	overflow: auto;
+}
+
+.public_lesson .entry .row {
+	margin: 0 32rpx;
+	padding: 32rpx 0;
+	display: flex;
+	border-bottom: 2rpx solid #EBEDED;
+}
+
+.public_lesson .entry .row:last-child {
+	border-bottom: 0;
+}
+
+.public_lesson .entry .row image {
+	width: 220rpx;
+	height: 148rpx;
+	border-radius: 16rpx;
+	margin-right: 24rpx;
+	z-index: 99999;
+}
+
+.public_lesson .entry .row .right {
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
+
+.public_lesson .entry .row .right .second {
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+	margin: 16rpx 0 24rpx 0;
+}
+
+.public_lesson .entry .row .right .second .line {
+	width: 2rpx;
+	height: 20rpx;
+	background: #D8D8D8;
+	margin: 0 16rpx;
+}
+
+.public_lesson .entry .row .right .second text {
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFB210;
+}
+
+.public_lesson .entry .row .right .bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 442rpx;
+}
+
+.public_lesson .entry .row .right .bottom .left {
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+}
+
+.public_lesson .entry .row .right .bottom .left image {
+	width: 32rpx;
+	height: 32rpx;
+	border-radius: 32rpx;
+}
+
+.public_lesson .entry .row .right .bottom .other {
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #C4C7CC;
+}
+
+.public_lesson .entry .row .right .bottom .other image {
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 4rpx;
+}
+
+/* 提问列表 */
+.questions_list .ask {
+	height: 70rpx;
+	display: flex;
+	background: #FFF4F0;
+	margin: 20rpx 24rpx 20rpx;
+	border-radius: 20rpx;
+}
+
+.questions_list .ask image {
+	width: 35rpx;
+	height: 35rpx;
+	z-index: 999;
+	margin-left: 20rpx;
+	margin-top: 16rpx;
+}
+
+.questions_list .ask .ask_content {
+	margin-top: 18rpx;
+	width: 300rpx;
+	margin-left: 20rpx;
+	font-size: 22rpx;
+}
+
+.questions_list .ask .ask_send {
+	margin-left: 200rpx;
+	margin-top: 14rpx;
+	color: #FFAC00;
+	border-radius: 20rpx;
+	border: 1px solid #FFAC00;
+	height: 40rpx;
+	width: 90rpx;
+	text-align: center;
+}
+.questions_list .ask .ask_send text{
+	font-size: 23rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+}
+
+
+.questions_list .title {
+	height: 88rpx;
+	line-height: 88rpx;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding-top: 88rpx;
+	background-color: #fff;
+	z-index: 999;
+}
+
+.questions_list .title text {
+	margin-left: 32rpx;
+	font-size: 44rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #1A2233;
+}
+
+.questions_list .search {
+	height: 88rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30rpx;
+	position: relative;
+}
+
+.questions_list .search input {
+	width: 630rpx;
+	height: 64rpx;
+	background: #F3F5F5;
+	border-radius: 16rpx;
+	padding-left: 72rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #303133;
+}
+
+.questions_list .search image {
+	position: absolute;
+	width: 32rpx;
+	height: 32rpx;
+	left: 48rpx;
+	top: 50%;
+	margin-top: -16rpx;
+	z-index: inherit;
+}
+
+.questions_list .placeholder {
+	color: #C4C7CC;
+}
+
+.questions_list .entry {
+	margin-top: 15rpx;
+	border-bottom: 2rpx solid #EBEDED;
+}
+
+.questions_list .entry .row {
+	padding: 28rpx 32rpx;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.questions_list .entry .row image {
+	width: 88rpx;
+	height: 88rpx;
+	border-radius: 88rpx;
+	margin-right: 24rpx;
+	z-index: 99999;
+}
+
+.questions_list .entry .row .right .part1 {
+	width: 550rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 300;
+	color: #1A2233;
+	margin-bottom: 12rpx;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.questions_list .entry .row .right .part2 {
+	height: 80rpx;
+	width: 600rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 300;
+	color: #1A2233;
+	margin-bottom: 12rpx;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.questions_list .entry .row .right .part2 .name {
+	display: flex;
+	align-items: center;
+	width: 100rpx;
+	font-size: 22rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+
+}
+
+.questions_list .entry .row .right .part2 .solved {
+	font-size: 20rpx;
+	align-items: center;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: #C4C7CC;
+	border-radius: 14rpx;
+	margin-left: 350rpx;
+	height: 46rpx;
+	width: 80rpx;
+	padding-left: 20rpx;
+	padding-top: 10rpx;
+	margin-top: 12rpx;
+}
+
+.questions_list .entry .row .right .part2 .not_solved {
+	font-size: 20rpx;
+	align-items: center;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	background: #00AB64;
+	border-radius: 14rpx;
+	margin-left: 350rpx;
+	height: 46rpx;
+	width: 80rpx;
+	padding-left: 20rpx;
+	padding-top: 10rpx;
+	margin-top: 12rpx;
+}
+
+.questions_list .top {
+	position: fixed;
+	padding-top: 88rpx;
+	background-color: #fff;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 88rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #333336;
+	z-index: 999;
+}
+
+.questions_list .top image {
+	position: absolute;
+	bottom: 20rpx;
+	left: 24rpx;
+	width: 48rpx;
+	height: 48rpx;
+}
+
+.questions_list .content {
+	margin-top: 176rpx;
+	padding-top: 32rpx;
+}
+
+.questions_list .content .time {
+	width: 216rpx;
+	height: 40rpx;
+	background: #EDEFF2;
+	border-radius: 20rpx;
+	margin: 0 auto;
+	margin-bottom: 48rpx;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #C0C4CC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.questions_list .content .row {
+	display: flex;
+	padding: 0 24rpx;
+	align-items: center;
+}
+
+.questions_list .content .left {
+	justify-content: flex-start;
+}
+
+.questions_list .content .right {
+	justify-content: flex-end;
+}
+
+.questions_list .content .row {
+	margin-bottom: 48rpx;
+}
+
+.questions_list .content .row .dsc {
+	max-width: 492rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	line-height: 40rpx;
+	padding: 24rpx;
+	color: #1A2233;
+}
+
+.questions_list .content .left .dsc {
+	background: #FFFFFF;
+	border-radius: 0rpx 24rpx 24rpx 24rpx;
+}
+
+.questions_list .content .right .dsc {
+	background: #DDEBE7;
+	border-radius: 24rpx 0rpx 24rpx 24rpx;
+}
+
+.questions_list .content .row image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 80rpx;
+}
+
+.questions_list .content .left image {
+	margin-right: 20rpx;
+}
+
+.questions_list .content .right image {
+	margin-left: 20rpx;
+}
+
+.questions_list .content .dsc video {
+	width: 304rpx;
+	height: 170rpx;
+}
+
+.questions_list .content .dsc .audio {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
+
+.questions_list .content .dsc .audio image {
+	width: 48rpx;
+	height: 48rpx;
+	margin-right: 160rpx;
+}
+
+.questions_list .content .dsc .audio .img {
+	width: 10rpx;
+	height: 8rpx;
+	margin-right: 0;
+}
+
+.questions_list .content .dsc .audio .second {
+	display: flex;
+	align-items: flex-start;
+}
+
+.questions_list .content .row .circle {
+	width: 16rpx;
+	height: 16rpx;
+	background: #FA5151;
+	border-radius: 16rpx;
+	margin: 0 20rpx;
+}
+.option{
+	display: flex;
+	justify-content: space-between;
+	height: 88rpx;
+	align-items: center;
+}
+.option>view{
+	width: 33.33%;
+	position: relative;
+	font-size: 30rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #333336;
+	height: 88rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.option .line{
+	position: absolute;
+	width: 28rpx;
+	height: 6rpx;
+	background: #008965;
+	border-radius: 3rpx;
+	left: 50%;
+	margin-left: -14rpx;
+	bottom: 10rpx;
+}
+.option .acitve{
+	font-size: 30rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #333336;
+}

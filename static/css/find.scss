@@ -1,0 +1,306 @@
+page{
+	background: #fff;
+}
+.status_bar{
+	
+}
+.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: #fff;
+}
+.top{
+	background-color: #ffffff;
+	height: 88rpx;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top .title{
+	font-size: 36rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #1A2233;
+	position: absolute;
+	left: 32rpx;
+}
+.top .option{
+	display: flex;
+	height: 72rpx;
+	background: #F0F2F5;
+	border-radius: 16rpx;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 6rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #585C66;
+}
+.top .option .row{
+	width: 194rpx;
+	height: 60rpx;
+	border-radius: 12rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.top .option .active{
+	background: #FFFFFF;
+	font-size: 28rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #1A2233;
+}
+swiper{
+	padding-top: 88rpx;
+	margin-top: var(--status-bar-height);
+}
+.search{
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	position: relative;
+	background: #FFFFFF;
+	justify-content: center;
+	/*  #ifdef  MP-WEIXIN  */
+	margin-top: 18rpx;
+	/*  #endif  */
+}
+.search image{
+	position: absolute;
+	width: 32rpx;
+	height: 32rpx;
+	top: 50%;
+	margin-top: -16rpx;
+	left: 56rpx;
+}
+.search input{
+	width: 614rpx;
+	height: 68rpx;
+	background: #F3F5F5;
+	border-radius: 16rpx;
+	padding-left: 72rpx;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #303133;
+}
+.placeholderStyle{
+	color: #C4C7CC;
+}
+.select{
+	height: 80rpx;
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 32rpx 0 30rpx;
+	border-bottom: 20rpx solid #F5F5F5;;
+}
+.select .word{
+	display: flex;
+	flex-wrap: wrap;
+}
+.select .word .row{
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #585C66;
+	background: #F0F2F5;
+	border-radius: 8rpx;
+	padding: 8rpx 16rpx;
+	margin-right: 20rpx;
+	margin-bottom: 2rpx;
+}
+.select .word .row image{
+	width: 32rpx;
+	height: 32rpx;
+}
+.select .right{
+	display: flex;
+	align-items: center;
+	width: 138rpx;
+	height: 56rpx;
+	border-radius: 32rpx;
+	border: 2rpx solid #C4C7CC;
+	justify-content: center;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+}
+.select .right image{
+	width: 32rpx;
+	height: 32rpx;
+}
+.entry{
+	background: #FFFFFF;
+	overflow: auto;
+}
+.entry .row{
+	margin: 0 32rpx;
+	padding: 32rpx 0;
+	display: flex;
+	border-bottom: 2rpx solid #EBEDED;
+}
+.entry .row:last-child{
+	border-bottom: 0;
+}
+.entry .row image{
+	width: 220rpx;
+	height: 148rpx;
+	border-radius: 16rpx;
+	margin-right: 24rpx;
+}
+.entry .row .right{
+	font-size: 32rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
+.entry .row .right .second{
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+	margin: 16rpx 0 24rpx 0;
+}
+.entry .row .right .second .line{
+	width: 2rpx;
+	height: 20rpx;
+	background: #D8D8D8;
+	margin: 0 16rpx;
+}
+.entry .row .right .second text{
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFB210;
+}
+.entry .row .right .bottom{
+	display: flex;
+	justify-content: space-between;
+	width: 442rpx;
+}
+.entry .row .right .bottom .left{
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+}
+.entry .row .right .bottom .left image{
+	width: 32rpx;
+	height: 32rpx;
+	border-radius: 32rpx;
+}
+.entry .row .right .bottom .other{
+	display: flex;
+	align-items: center;
+	font-size: 24rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #C4C7CC;
+}
+
+.entry .row .right .bottom .other image{
+	width: 32rpx;
+	height: 32rpx;
+	margin-right:4rpx ;
+}
+.game{
+	background: #FFFFFF;
+	padding-bottom: 28rpx;
+	padding-top: 32rpx;
+	overflow: auto;
+}
+.game .entrys .row{
+	width: 688rpx;
+	background: #FFF5F0 url($static_url+'bg1.png') no-repeat;
+	background-size: 688rpx auto;
+	border-radius: 20rpx;
+	margin: 0 auto; 
+	margin-bottom: 32rpx;
+}
+.game .entrys .row:nth-child(2n){
+	background: #E3F2EC url($static_url+'bg2.png') no-repeat;
+	background-size: 688rpx auto;
+	border-radius: 20rpx;
+}
+.game .entrys .row:nth-child(3n){
+	background: #F9EDD3 url($static_url+'bg3.png') no-repeat;
+	background-size: 688rpx auto;
+	border-radius: 20rpx;
+}
+.game .entrys .row .text{
+	padding: 32rpx 0 0 30rpx;
+	font-size: 32rpx;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #1A2233;
+}
+.game .entrys .row .dsc{
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #585C66;
+	line-height: 44rpx;
+	margin: 20rpx 30rpx;
+	overflow: hidden; 
+	display: -webkit-box;
+	-webkit-line-clamp: 3; 
+	-webkit-box-orient: vertical;
+}
+.game .entrys .row .one{
+	width: 628rpx;
+	height: 352rpx;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 40rpx;
+}
+.game .entrys .row .three{
+	display: flex;
+	padding: 0 30rpx;
+	padding-bottom: 40rpx;
+	justify-content: space-between;
+}
+.game .entrys .row .three image{
+	width: 196rpx;
+	height: 196rpx;
+}
+.game .entrys .row .user{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #8A8F99;
+	padding: 0 30rpx;
+	padding-bottom: 32rpx;
+}
+.game .entrys .row .user .user_info{
+	display: flex;
+	align-items: center;
+}
+.game .entrys .row .user image{
+	width: 48rpx;
+	height: 48rpx;
+	margin-right: 20rpx;
+}
+.game .entrys .row .user text{
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #1A2233;
+}
