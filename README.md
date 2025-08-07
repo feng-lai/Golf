@@ -1,4 +1,7 @@
 # Golf Coaching App - Make Your Golf Journey Easier and More Efficient!
+## 🌍 Language Navigation / Navegação / Navegación / 言語切替
+
+[English](README.md) | [日本語](README-jp.md) | [العربية](README-ar.md) | [Português](README-pt.md) | [Español](README-es.md)
 
 ## Introduction
 
